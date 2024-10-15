@@ -1,0 +1,19 @@
+services:
+  backend:
+    build:
+      context: C:/Users/DELL/Documents/proyecto_desarrollo/backend
+      dockerfile: Dockerfile.txt
+    ports:
+      - "8000:8000"  # Cambia según el puerto que usa tu backend
+    volumes:
+      - /c/Users/DELL/Documents/proyecto_desarrollo/backend:/app
+      - /c/Users/DELL/Documents/proyecto_desarrollo/modelo:/app/modelo
+
+  frontend:
+    build:
+      context: C:/Users/DELL/Documents/proyecto_desarrollo/frontend
+      dockerfile: Dockerfile.txt
+    ports:
+      - "8501:8501"  # Cambia según el puerto que usa tu frontend
+    volumes:
+      - /c/Users/DELL/Documents/proyecto_desarrollo/frontend

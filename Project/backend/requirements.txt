@@ -1,0 +1,15 @@
+fastapi 
+uvicorn 
+scikit-learn 
+python-multipart 
+pillow 
+tensorflow 
+typing-inspect
+pydantic
+fastapi-restful
+sqlalchemy 
+passlib 
+python-dotenv
+bcrypt 
+jwt 
+beautifulsoup4

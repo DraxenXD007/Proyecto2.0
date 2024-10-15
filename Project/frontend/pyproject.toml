@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "frontend"
+version = "0.1.0"
+description = ""
+authors = ["Julian Carvajal <julian_dav.carvajal@uao.edu.co>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+pandas = "^2.2.3"
+watchdog = "^5.0.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
